@@ -72,7 +72,7 @@ springboot-microservice-task-muhammad-ridhan-khoirullah
 
 ##  Entity Relationship Diagram (ERD)
 
-![ER Diagram](main/src/img/ER_Diagram_Simple_Book_Management_Microservice.png)
+![ER Diagram](src/main/img/ER_Diagram_Simple_Book_Management_Microservice.png)
 
 This project uses a **single entity**, which fully satisfies the assignment requirements.
 
@@ -203,22 +203,22 @@ Screenshots or API simulation evidence:
 
 
 ### Add a New Book
-![Add a New Book](main/src/img/Add_a_new%20book.png)
+![Add a New Book](src/main/img/Add_a_new_book.png)
 
 ### Delete a Book
-![Delete a Book](main/src/img/Delete_a_book.png)
+![Delete a Book](src/main/img/Delete_a_book.png)
 
 ### Get a Book by ID
-![Get a Book by ID](main/src/img/Get_a_book_by_ID.png)
+![Get a Book by ID](src/main/img/Get_a_book_by_ID.png)
 
 ### Get All Books
-![Get All Books](main/src/img/Get_all_books.png)
+![Get All Books](src/main/img/Get_all_books.png)
 
 ### Partial Update of a Book (Title Only)
-![Partial Update Book](main/src/img/Partial%20update_of_a_book_(e.g.%20title%20only).png)
+![Partial Update Book](src/main/img/Partial%20update_of_a_book_(e.g.%20title%20only).png)
 
 ### Update Book by ID (Full Update)
-![Update Book Full](main/src/img/Update__book_by_ID_(full%20update).png)
+![Update Book Full](src/main/img/Update__book_by_ID_(full%20update).png)
 
 
 ---
