@@ -215,10 +215,10 @@ Screenshots or API simulation evidence:
 ![Get All Books](src/main/img/Get_all_books.png)
 
 ### Partial Update of a Book (Title Only)
-![Partial Update Book](src/main/img/Partial%20update_of_a_book_(e.g.%20title%20only).png)
+![Partial Update Book](src/main/img/Partial_update_of_a_book_(e.g._title_only).png)
 
 ### Update Book by ID (Full Update)
-![Update Book Full](src/main/img/Update__book_by_ID_(full%20update).png)
+![Update Book Full](src/main/img/Update_a_book_by_ID_(full_update).png)
 
 
 ---
