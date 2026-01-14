@@ -72,7 +72,7 @@ springboot-microservice-task-muhammad-ridhan-khoirullah
 
 ## 🧩 Entity Relationship Diagram (ERD)
 
-![ER Diagram](docs/er-diagram.png)
+![ER Diagram](ER_Diagram_Simple_Book_Management_Microservice.png)
 
 This project uses a **single entity**, which fully satisfies the assignment requirements.
 
