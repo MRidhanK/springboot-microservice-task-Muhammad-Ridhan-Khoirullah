@@ -5,7 +5,7 @@
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project is a **Simple Book Management Microservice** built using **Spring Boot**.  
 It exposes RESTful APIs to perform full **CRUD operations** on a **Book** resource.
@@ -20,7 +20,7 @@ The project demonstrates:
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 The application follows a standard **layered architecture**:
 
@@ -37,7 +37,7 @@ Controller Layer  →  Service Layer  →  Repository Layer  →  Database
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 springboot-microservice-task-muhammad-ridhan-khoirullah
@@ -70,15 +70,15 @@ springboot-microservice-task-muhammad-ridhan-khoirullah
 
 ---
 
-## 🧩 Entity Relationship Diagram (ERD)
+##  Entity Relationship Diagram (ERD)
 
-![ER Diagram](ER_Diagram_Simple_Book_Management_Microservice.png)
+![ER Diagram](src/img/ER_Diagram_Simple_Book_Management_Microservice.png)
 
 This project uses a **single entity**, which fully satisfies the assignment requirements.
 
 ---
 
-## 🗄️ Database Design
+##  Database Design
 
 ### Entity: `Book`
 
@@ -92,7 +92,7 @@ This project uses a **single entity**, which fully satisfies the assignment requ
 
 ---
 
-## 🧾 PostgreSQL DDL Script
+##  PostgreSQL DDL Script
 
 ```sql
 CREATE TABLE books (
@@ -106,7 +106,7 @@ CREATE TABLE books (
 
 ---
 
-## ⚙️ Application Configuration
+##  Application Configuration
 
 `application.properties`
 
@@ -122,7 +122,7 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 
 ---
 
-## ▶️ How to Run the Application
+##  How to Run the Application
 
 ### Prerequisites
 
@@ -160,7 +160,7 @@ http://localhost:8080
 
 ---
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 | HTTP Method | Endpoint              | Description              |
 |------------|-----------------------|--------------------------|
@@ -173,7 +173,7 @@ http://localhost:8080
 
 ---
 
-## 📥 Sample Request Payload
+##  Sample Request Payload
 
 ### Create Book (POST)
 
@@ -188,7 +188,7 @@ http://localhost:8080
 
 ---
 
-## 🧪 Postman Testing
+##  Postman Testing
 
 All API endpoints were tested using **Postman**.
 
@@ -197,17 +197,34 @@ https://www.postman.com/login4-9184/workspace/simple-book-management-microservic
 
 ---
 
-## 🧾 Test Evidence
+##  Test Evidence
 
 Screenshots or API simulation evidence:
 
 ```
-[POSTMAN TESTING SCREENSHOTS HERE]
+### Add a New Book
+![Add a New Book](src/img/Add_a_new%20book.png)
+
+### Delete a Book
+![Delete a Book](src/img/Delete_a_book.png)
+
+### Get a Book by ID
+![Get a Book by ID](src/img/Get_a_book_by_ID.png)
+
+### Get All Books
+![Get All Books](src/img/Get_all_books.png)
+
+### Partial Update of a Book (Title Only)
+![Partial Update Book](src/img/Partial%20update_of_a_book_(e.g.%20title%20only).png)
+
+### Update Book by ID (Full Update)
+![Update Book Full](src/img/Update__book_by_ID_(full%20update).png)
+
 ```
 
 ---
 
-## 🔄 Git Workflow
+##  Git Workflow
 
 - Meaningful commit messages  
 - Feature-based commits  
@@ -215,6 +232,6 @@ Screenshots or API simulation evidence:
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 
 This project showcases a clean and maintainable **Spring Boot microservice** with proper architecture, database integration, and RESTful API design — suitable for a **Junior Java Developer** assessment.
